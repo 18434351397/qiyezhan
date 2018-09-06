@@ -1,0 +1,428 @@
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(7, 41, 83) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    /* padding: 15px 0; */
+    /* 	background-image: url('../img/1.png');
+        background-position: center;
+        background-size: cover; */
+}
+nav .con{
+    display: block;
+    /* width: 1030px; */
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    /* 	background-image: url('../img/1.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; */
+}
+nav .con .logo{
+    width: 100%;
+
+}
+nav .con .logo .toubu{
+    margin-top: 20px;
+}
+nav .con .Navbtn{
+    width: 36px;
+    height: 30px;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+    /* background-color: red; */
+    position: absolute;
+    font-size: 20px;
+    top: 35px;
+    right: 0;
+
+}
+nav .con .list{
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    /* marigin-bottom: 0; */
+    /* line-height: 80px; */
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding: 20px 0; */
+
+
+
+}
+nav .con .list .text{
+    width: 13%;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 40px;
+    padding: 0 10px;
+    border-top: 1px dashed #666;
+
+}
+nav .con .list .xiala-box{
+    position: relative;
+}
+nav .con .list .xiala-box .xiala{
+    width: 100%;
+    height: 0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    z-index: 1;
+    background-color: rgb(7, 41, 83) !important;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav .con .list .xiala-box:hover .xiala{
+    height: 160px;
+}
+nav .con .list .xiala-box:hover .xiala1{
+    height: 200px;
+}
+nav .con .list .xiala-box:hover .xiala2{
+    height: 40px;
+}
+nav .con .list .xiala-box .xiala h2{
+    /* width: 128px; */
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+.banner-box{
+    width: 100%;
+    /* height: 475px; */
+    margin-top: 165px;
+}
+.banner-box img{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    box-sizing: border-box;
+}
+main .content-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:30px auto;
+}
+
+main .left{
+    width:23.5%;
+    text-align: left;
+    margin-bottom: 15px !important;
+    color:#333;
+}
+main .left .title{
+    width: 100px;
+    height: 46px;
+    background-color: rgb(7, 41, 83) !important;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+main .content-box .left ul{
+    padding:30px 10px 10px;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+main .content-box .left ul li{
+    color:#000;
+    padding: 0 15px;
+    border-bottom: 1px solid #ccc;
+    line-height: 38px;
+}
+main .content-box .left ul li a{
+    width: 100%;
+
+}
+main .content-box .left ul li:hover{
+    color:#fff;
+    background-color: rgb(7, 41, 83) !important;
+}
+
+/* main .content-box .left ul li .first{
+    width:100%;
+    line-height: 38px;
+    color:#333;
+} */
+
+
+main .right{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px; 
+}
+main .right .position{
+    margin-top: 30px;
+    background-color: #ededed;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #333;
+    border-bottom: 2px solid rgb(7, 41, 83) !important;
+
+}
+main .right .position .tou{
+    color: #333;
+    margin: 0 10px;
+    font-size: 12px;
+}
+main .right .position .tou:hover{
+    text-decoration: none;
+}
+main .right ul{
+    margin-top: 10px;
+}
+main .right ul li{
+    padding: 2px;
+    text-align: left;
+    margin-top: 10px;
+    /* padding: 5px; */
+}
+main .right ul li:nth-child(2) h3{
+    margin: 0;
+    padding:4px 0 5px 20px;
+    color: rgb(7, 41, 83) !important;
+}
+main .right ul li:nth-child(2) p{
+    font-size: 12px;
+    padding:4px 0 5px 20px;
+    margin: 0;
+}
+
+main .right ul li img{
+    width: 100%;
+}
+main .right ul li:nth-child(){
+
+}
+main .right .box1 .one{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+}
+
+main .right .liuyan{
+    height: 28px;
+    padding: 0 10px;
+    background-color: rgb(7, 41, 83) !important;
+    color: #fff; 
+    line-height: 28px;
+    text-align: center;
+    margin-right: 20px; 
+}
+/* main .right .box1 .two .share{
+    width: 90px;
+} */
+main .box1 .two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main .box1 .two .share{
+    width: 90px;
+    height: 40px;
+    /* line-height: 40px; */
+    text-align: right;
+    font-size: 16px;
+    padding: 10px 0;
+    padding-right: 10px;
+}
+main .box1 .two .more{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+main .box1 .two .more .qzone{
+    width: 24px;
+    font-size: 18px;
+    height: 24px;
+    background-image: url('../img/2.png');
+    background-repeat: no-repeat;
+    background-position: 0 -52px;
+    margin-right: 10px;
+
+}
+main .box1 .two .more a{
+    display: block;
+    position: relative;
+}
+main .box1 .two .more a .list{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    background-color: #666;
+    display: none;
+
+}
+main .box1 .two .more a:hover .list{
+    display: block;
+}
+main .box1 .two .more a .list h2{
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    /* line-height: 30px; */
+}
+main .box1 .two .more .qzone1{
+    background-position: 0 -104px;
+}
+main .box1 .two .more .qzone2{
+    background-position: 0 -208px;
+}
+main .box1 .two .more .qzone2{
+    background-position: 0 -156px;
+}
+main .box1 .two .more .qzone3{
+    background-position: 0 -520px;
+}
+main .box1 .two .more .qzone4{
+    background-position: 0 -2600px;
+}
+main .box1 .two .more .qzone5{
+    background-position: 0 -1040px;
+}
+main .right .title{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(7, 41, 83) !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 10px;
+}
+main .right .title a{
+    padding-right: 8px;
+    float: right;
+    color: #fff;
+    font-weight: normal;
+
+}
+main .right .title a:hover{
+    text-decoration: none;
+}
+main .right .con{
+    margin-top: 10px;
+    padding: 6px 10px;
+}
+main .right .pic1{
+    width: 24%;
+    /* margin-right: 8px; */
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+}
+main .right .pic1 h2{
+    font-size: 12px;
+    margin: 0;
+    margin: 14px 0;
+}
+main .right .pic1:hover .zhezhao{
+    display: block;
+}
+main .right .pic1 .zhezhao {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+footer{
+    background-color: rgb(7, 41, 83) !important;
+    color: #fff;
+}
+footer .top{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px dashed #666;
+    /* align-items: center; */
+}
+footer .top h4{
+    font-size: 14px;
+    margin: 0;
+    /* margin-right: 20px; */
+}
+footer .top ul{
+    display: flex;
+    justify-content: space-between;
+    /* line-height: 30px; */
+}
+footer .top ul li{
+    height: 16px;
+    padding-right: 5px;
+    border-right: 2px solid #fff;
+}
+footer .top ul li:nth-child(11){
+    border: none;
+}
+footer .top ul li a:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+footer .top ul li a{
+    font-size: 12px;
+    display: block;
+    color: #fff;
+    /* border-right: 2px solid #fff; */
+    margin-left: 10px;
+}
+footer .center{
+    padding: 15px 0;
+}
+footer .center .left{
+    width: 80%;
+    font-size: 12px;
+}
+footer .center .left p{
+    line-height: 20px;
+}
+
+/* 小屏幕 col-sm  >768px */
+@media screen and (min-width: 768px){
+    nav .con .Navbtn{
+        display: none;
+    }
+    nav{
+        height: 165px;
+    }
+}
+/* 中屏 普通PC col-md  >992px */
+@media screen and (min-width: 992px){
+}
+/* 大屏  col-lg */
+@media screen and (min-width: 1200px){
+}

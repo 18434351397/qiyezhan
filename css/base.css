@@ -1,0 +1,18 @@
+/*
+* @Author: che
+* @Date:   2018-08-09 10:35:34
+* @Last Modified by:   che
+* @Last Modified time: 2018-08-09 10:42:26
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}

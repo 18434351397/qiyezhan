@@ -1,0 +1,300 @@
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(7, 41, 83) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    /* padding: 15px 0; */
+    /* 	background-image: url('../img/1.png');
+        background-position: center;
+        background-size: cover; */
+}
+nav .con{
+    display: block;
+    /* width: 1030px; */
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    /* 	background-image: url('../img/1.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; */
+}
+nav .con .logo{
+    width: 100%;
+
+}
+nav .con .logo .toubu{
+    margin-top: 20px;
+}
+nav .con .Navbtn{
+    width: 36px;
+    height: 30px;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+    /* background-color: red; */
+    position: absolute;
+    font-size: 20px;
+    top: 35px;
+    right: 0;
+
+}
+nav .con .Navbtn:hover{
+    text-decoration: none;
+}
+nav .con .list{
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    /* marigin-bottom: 0; */
+    /* line-height: 80px; */
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding: 20px 0; */
+
+
+
+}
+nav .con .list .text{
+    width: 13%;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 40px;
+    padding: 0 10px;
+    border-top: 1px dashed #666;
+
+}
+nav .con .list .xiala-box{
+    position: relative;
+}
+nav .con .list .xiala-box .xiala{
+    width: 100%;
+    height: 0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    z-index: 1;
+    background-color: rgb(7, 41, 83) !important;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav .con .list .xiala-box:hover .xiala{
+    height: 160px;
+}
+nav .con .list .xiala-box:hover .xiala1{
+    height: 200px;
+}
+nav .con .list .xiala-box:hover .xiala2{
+    height: 40px;
+}
+nav .con .list .xiala-box .xiala h2{
+    /* width: 128px; */
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+.banner-box{
+    width: 100%;
+    /* height: 475px; */
+    margin-top: 165px;
+    position: relative;
+}
+.banner-box img{
+    width: 100%;
+    height: auto;
+}
+.banner-box ul{
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 48%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.banner-box ul li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #ff6700;
+}
+
+main{
+    box-sizing: border-box;
+}
+main .content-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:30px auto;
+}
+
+main .left{
+    width:23.5%;
+    text-align: left;
+    margin-bottom: 15px !important;
+    color:#333;
+}
+main .left .title{
+    width: 100px;
+    height: 46px;
+    background-color: rgb(7, 41, 83) !important;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+main .content-box .left ul{
+    padding:5px 10px 10px;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+main .content-box .left ul li{
+    color:#000;
+    padding: 0 15px;
+    border-bottom: 1px solid #ccc;
+    line-height: 38px;
+}
+main .content-box .left ul .last{
+    border-bottom: none;
+}
+main .content-box .left ul li a{
+    width: 100%;
+
+}
+main .content-box .left ul li:hover{
+    color:#fff;
+    background-color: rgb(7, 41, 83) !important;
+}
+main .right{
+    width: 75%;
+    margin: 0 auto;
+    /* padding-left: 20px;  */
+}
+main .right .position{
+    margin-top: 30px;
+    background-color: #ededed;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #333;
+    border-bottom: 2px solid rgb(7, 41, 83) !important;
+
+}
+main .right .position .tou{
+    color: #333;
+    margin: 0 10px;
+    font-size: 12px;
+}
+main .right .position .tou:hover{
+    text-decoration: none;
+}
+main ul li{
+    margin: 5px auto 10px;
+    padding: 10px 0;
+    line-height: 40px;
+}
+main ul li img{
+    display: block;
+    margin: 0 auto;
+}
+main ul p{
+    line-height: 2.1em;
+    color: #333;
+    text-indent: 2em;
+}
+
+footer{
+    background-color: rgb(7, 41, 83) !important;
+    color: #fff;
+}
+footer .top{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px dashed #666;
+    /* align-items: center; */
+}
+footer .top h4{
+    font-size: 14px;
+    margin: 0;
+    /* margin-right: 20px; */
+}
+footer .top ul{
+    display: flex;
+    justify-content: space-between;
+    /* line-height: 30px; */
+}
+footer .top ul li{
+    height: 16px;
+    padding-right: 5px;
+    border-right: 2px solid #fff;
+}
+footer .top ul li:nth-child(11){
+    border: none;
+}
+footer .top ul li a:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+footer .top ul li a{
+    font-size: 12px;
+    display: block;
+    color: #fff;
+    /* border-right: 2px solid #fff; */
+    margin-left: 10px;
+}
+footer .center{
+    padding: 15px 0;
+}
+footer .center .left{
+    width: 80%;
+    font-size: 12px;
+}
+footer .center .left p{
+    line-height: 20px;
+}
+
+/* 小屏幕 col-sm  >768px */
+@media screen and (min-width: 768px){
+    nav .con .Navbtn{
+        display: none;
+    }
+    nav{
+        height: 165px;
+    }
+}
+/* 中屏 普通PC col-md  >992px */
+@media screen and (min-width: 992px){
+}
+/* 大屏  col-lg */
+@media screen and (min-width: 1200px){
+}
