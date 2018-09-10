@@ -63,8 +63,8 @@
     		<div class="swiper-pagination"></div>
     
     <!-- 如果需要导航按钮 -->
-    		<div class="swiper-button-prev"></div>
-    		<div class="swiper-button-next"></div>
+    		<div class="swiper-button-prev" style="color: #e0e0e0;"></div>
+    		<div class="swiper-button-next" style="color: #e0e0e0;"></div>
     
     <!-- 如果需要滚动条 -->
     <!-- <div class="swiper-scrollbar"></div> -->
@@ -164,14 +164,14 @@
 			</ul>
 		</div>
 	</div>
-	<div class="advantage">
-		<div class="container">
-			<div class="chatu">
-				<img src="img/4.jpg" alt="">
-			</div>
-		</div>
-	</div>
-	<div class="hangye">
+	<!--<div class="advantage">-->
+		<!--<div class="container">-->
+			<!--<div class="chatu">-->
+				<!--<img src="img/4.jpg" alt="">-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
+	<div class="hangye" style="margin-top:50px;">
 		<div class="container">
 		<div class="title">行业新闻</div>
 			<ul class="row">
@@ -214,24 +214,24 @@
 		</div>
 	</div>
 	<footer>
-			<div class="container">
-				<div class="top">
-				<h4>友情链接:</h4>
-				<ul>
-					<li><a href="">不锈钢汽车用管</a></li>
-					<li><a href="">水温机</a></li>
-					<li><a href="">互感器测试仪</a></li>
-					<li><a href="">腻子粉搅拌机</a></li>
-					<li><a href="">办公装修</a></li>
-					<li><a href="">精密零件加工</a></li>
-					<li><a href="">格栅板</a></li>
-					<li><a href="">防腐材料</a></li>
-					<li><a href="">郑州造价员培训班</a></li>
-					<li><a href="">半自动灌装机</a></li>
-					<li><a href="">苏州大金空调维修</a></li>
-				</ul>
-			</div>
-		</div>
+			<!--<div class="container">-->
+				<!--<div class="top">-->
+				<!--<h4>友情链接:</h4>-->
+				<!--<ul>-->
+					<!--<li><a href="">不锈钢汽车用管</a></li>-->
+					<!--<li><a href="">水温机</a></li>-->
+					<!--<li><a href="">互感器测试仪</a></li>-->
+					<!--<li><a href="">腻子粉搅拌机</a></li>-->
+					<!--<li><a href="">办公装修</a></li>-->
+					<!--<li><a href="">精密零件加工</a></li>-->
+					<!--<li><a href="">格栅板</a></li>-->
+					<!--<li><a href="">防腐材料</a></li>-->
+					<!--<li><a href="">郑州造价员培训班</a></li>-->
+					<!--<li><a href="">半自动灌装机</a></li>-->
+					<!--<li><a href="">苏州大金空调维修</a></li>-->
+				<!--</ul>-->
+			<!--</div>-->
+		<!--</div>-->
 		<div class="center">
 			<div class="container">
 				<div class="left">
@@ -247,9 +247,14 @@
 			</div>
 		</div> -->
 	</footer>
+	<div class="back1">
+		<a class="iconfont icon-arrow-circle-o-top">
+		</a>
+	</div>
 
 
 <script src="js/swiper-4.3.5.min.js"></script>
+	<script src="js/animate.js"></script>
 <script>        
   var mySwiper = new Swiper ('.swiper-container', {
     // direction: 'horizontal',
@@ -276,7 +281,13 @@
     // scrollbar: {
     //   el: '.swiper-scrollbar',
     // },
-  })        
+  })
+
+  let back=document.querySelector(".back1");
+  back.onclick = function () {
+      animate(document.body, {scrollTop: 0}, 600);
+      animate(document.documentElement, {scrollTop: 0}, 600);
+  }
   </script>
 </body>
 </html>

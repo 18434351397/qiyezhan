@@ -420,7 +420,7 @@ footer .top{
 	/* align-items: center; */
 }
 footer .top h4{
-	width: 10%;
+	width: 6%;
 	font-size: 14px;
 	margin: 0;
 	/* margin-right: 20px; */
@@ -474,6 +474,33 @@ footer .center .left{
 }
 footer .center .left p{
 	line-height: 20px;
+}
+
+
+.back1{
+	/*width: 84px;*/
+	/*height: 90px;*/
+	overflow: hidden;
+	background-color: #fff;
+	/*margin-top: 20px;*/
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+.back1  .icon-arrow-circle-o-top{
+	display: block;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	text-decoration: none;
+	font-size: 28px;
+	text-align: center;
+	color: #333;
+	opacity: 0.6;
+	/*margin-top: 20px;*/
+	border:none;
 }
 
 /* 小屏幕 col-sm  >768px */

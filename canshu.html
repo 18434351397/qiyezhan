@@ -83,25 +83,7 @@
 <main>
     <div class="container">
         <div class="content-box">
-            <div class="left hidden-xs">
-                <div class="title">产品展示</div>
-                <ul>
-                    <a href=""><li>铁路道岔与配件</li></a>
-                    <a href=""><li>铁路维护工具</li></a>
-                    <a href=""><li>煤矿配件</li></a>
-                    <a href=""><li>焦化配件</li></a>
-                    <a href=""><li>行车配件</li></a>
-                </ul>
-                <div class="title">产品新闻</div>
-                <ul>
-                    <a href=""><li>铁路道岔与配件</li></a>
-                    <a href=""><li>铁路维护工具</li></a>
-                    <a href=""><li>煤矿配件</li></a>
-                    <a href=""><li>焦化配件</li></a>
-                    <a href=""><li>行车配件</li></a>
-                </ul>
-            </div>
-            <div class="right row">
+            <div class="right row" style="width: 100%;">
                 <div class="position">
                     <b>您当前所在的位置:</b>
                     <a class="tou" href="">首页</a>
@@ -335,7 +317,13 @@
     </div> -->
 </footer>
 
+<div class="back1">
+    <a class="iconfont icon-arrow-circle-o-top">
+    </a>
+</div>
+
 <script src="js/swiper-4.3.5.min.js"></script>
+<script src="js/animate.js"></script>
 <script>        
   var mySwiper = new Swiper ('.swiper-container', {
     // direction: 'horizontal',
@@ -362,7 +350,13 @@
     // scrollbar: {
     //   el: '.swiper-scrollbar',
     // },
-  })        
+  })
+
+  let back=document.querySelector(".back1");
+  back.onclick = function () {
+      animate(document.body, {scrollTop: 0}, 600);
+      animate(document.documentElement, {scrollTop: 0}, 600);
+  }
 </script>
 </body>
 </html>

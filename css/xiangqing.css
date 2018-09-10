@@ -219,9 +219,9 @@ main .right ul li:nth-child(2) p{
 main .right ul li img{
     width: 100%;
 }
-main .right ul li:nth-child(){
+/*main .right ul li:nth-child(){*/
 
-}
+/*}*/
 main .right .box1 .one{
     display: flex;
     flex-direction: row;
@@ -338,6 +338,7 @@ main .right .pic1{
     text-align: center;
     font-size: 12px;
     position: relative;
+    margin-left: 9px;
 }
 main .right .pic1 h2{
     font-size: 12px;
@@ -409,6 +410,32 @@ footer .center .left{
 }
 footer .center .left p{
     line-height: 20px;
+}
+
+.back1{
+    /*width: 84px;*/
+    /*height: 90px;*/
+    overflow: hidden;
+    background-color: #fff;
+    /*margin-top: 20px;*/
+    /*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.back1  .icon-arrow-circle-o-top{
+    display: block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    opacity: 0.6;
+    /*margin-top: 20px;*/
+    border:none;
 }
 
 /* 小屏幕 col-sm  >768px */
